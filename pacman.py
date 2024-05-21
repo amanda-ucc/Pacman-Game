@@ -1,4 +1,4 @@
-# Build Pac-Man from Scratch in Python with PyGame!!
+#imports
 import copy
 from board import boards
 import pygame
@@ -6,6 +6,7 @@ import math
 
 pygame.init()
 
+#variable set-up
 WIDTH = 900
 HEIGHT = 950
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
